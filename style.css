@@ -1,0 +1,1079 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* font-family: sans-serif;  */
+}
+
+.navbar-section {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    height: 400px
+}
+
+.nav-page nav {
+    width: 100%;
+    height: 200
+}
+
+.nav-page nav ul {
+    max-width: 100%;
+    /* text-align: center; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    /* padding-top: 12px; */
+    border-bottom: 2px solid gray;
+    /* border: 2px solid black; */
+}
+
+.nav-page nav ul li {
+    padding-left: 30px;
+}
+.nav-page nav ul li img{
+    /* padding-bottom: 10px; */
+}
+.section-first {
+    height: 83vh;
+    background: url(mobile.jpg);
+    background-size: cover;
+    background-position:relative;
+    
+}
+
+.section-first h1 {
+    color: aliceblue;
+    margin-left: 60px;
+    padding-top: 40px;
+    font-size: 38px;
+}
+.section-first h3{
+    padding-top: 330px;
+    margin-left: 60px;
+}
+.section-first button{
+    max-width: 120px;
+    height: 30px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.section-second{
+    max-width: 100%;
+    height: 50%;
+    display: flex;
+    margin-top: 40px;
+    /* padding-top: 50px; */
+}
+.section-left{
+    max-width:40%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 120px;
+}
+.section-left h1{
+    padding-bottom: 80px;
+    font-size: 45px;
+}
+.section-left p{
+    padding-top: 30%;
+}
+.section-left h6{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.section-button button{
+   max-width: 200px;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.section-right{
+    width:55%;
+    height: 60vh;
+    background: url("udon-pc-2.7.jpg.thumb.webp");
+    background-size:cover;
+    background-repeat: no-repeat;
+    /* padding-top: 150px; */
+    margin-top:35px;
+}
+.section-right:hover{
+    transform : scale(1.1)! important;
+}
+
+
+
+.section-third{
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    height: 60vh;
+}
+.TV-page{
+   max-width: 45%;
+    height: 70vh;
+    display: flex;
+    background-color:  #f8f8f8;
+    margin-left: 60px;
+
+}
+.Tv-left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 450px; 
+    margin-left: 80px;
+}
+.Tv-left h1{
+    font-size: 35px;
+}
+.Tv-left h4{
+    margin-top: 145px;
+    margin-bottom: 15px;
+}
+.Tv-left h5{
+    font-size: 20px;
+}
+.Tv-left span button{
+   max-width: 1000px;
+    height: 35px;
+    margin-top: 20px;
+    /* display: flex; */
+}
+.Tv-right{
+   max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.Tv-right img:hover{
+    transform : scale(1.1)! important;
+}
+.Buds-page{
+    
+   max-width: 45%;
+    height: 70vh;
+    display: flex;
+    margin-left:10px;
+    margin-right: 40px;
+    background-color:  #f8f8f8;
+
+}
+
+.Buds-left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 450px; 
+    margin-left: 80px;
+}
+.Buds-left h1{
+    font-size: 35px;
+}
+.Buds-left h6{
+    margin-top: 145px;
+    margin-bottom: 15px;
+}
+.Buds-left h5{
+    font-size: 20px;
+}
+.Buds-left span button{
+    max-width: 200px;
+    height: 35px;
+    margin-top: 20px;
+    /* display: flex; */
+}
+.Buds-right{
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.Buds-right img:hover{
+    transform : scale(1.1)! important;
+}
+.para p{
+    margin-top: 120px;
+    margin-left: 135px;
+    font-size: 20px;
+    border-bottom: 1px solid  #f8f8f8;
+}
+
+.section-fourth{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: 90vh;
+}
+.nav-a nav{
+    display: flex;
+    color: #000;
+    margin-top: 30px;
+    margin-left: 130px;
+}
+.nav-a nav a{
+    margin-left: 20px;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+}
+.nav-a nav a:hover{
+    border-bottom: 1px solid red;
+    padding-bottom: 5px;
+}
+
+.fourth-path{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+   max-width: 100%;
+    height: 80vh;
+}
+.fourth-path button{
+    padding-top: 10px;
+}
+.Oneplus-text{
+    /* display: flex; */
+    justify-content: center;
+    flex-direction: column;
+    height:100%;
+   
+}
+.Oneplus-text h2{
+    margin-top: 30px;
+}
+.Oneplus-text p{
+    margin-top: 10px;
+}
+.Oneplus-text button{
+    display: flex;
+    border: none;
+    font-size: 18px;
+    width: 100%;
+    height: 40px;
+}
+.Oneplus-text button:hover{
+    display: flex;
+    justify-content: center;
+   /* align-items: center; */
+   background-color: #000;
+   color: #f8f8f8;
+   cursor: pointer;
+}
+
+/* OnePlus phone,pad and TV */
+.OnePlus-11{
+    /* max-width: 20%; */
+    height: 40vh;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.OnePlus-11 img:hover{
+    transform : scale(1.1)! important;
+}
+
+.OnePlus-C2{
+   max-width: 20%;
+    height: 40vh;
+    margin-left: 15px;
+    background-color: #f8f8f8;
+}
+.OnePlus-C2 img:hover{
+    transform : scale(1.1)! important;
+}
+.OnePlus-Tv{
+   max-width: 20%;
+    height: 40vh;
+    margin-left: 15px;
+    background-color: #f8f8f8;
+}
+.OnePlus-Tv img:hover{
+    transform : scale(1.1)! important;
+}
+.OnePlus-Pad{
+    max-width: 20%;
+    height: 40vh;
+    margin-left: 15px;
+    background-color: #f8f8f8;
+}
+.OnePlus-Pad img:hover{
+    transform : scale(1.1)! important;
+}
+.view{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+/* keyboard section */
+.Keyboard-section{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: 93vh;
+    background-color: #000;
+    color: white;
+}
+.header{
+    margin-top: 50px;
+    padding-left: 100px;
+}
+.header h3{
+    font-size: 20px;
+    width: 90%;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+.header h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-top: 25px;
+}
+.header h1 a{
+    text-decoration: none;
+    color: red;
+}
+.Keyboard-path{
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    max-width: 100%;
+    height: 90vh;
+
+}
+.keyboard-image{
+    display:flex;
+    max-width: 50%;
+    /* position: relative; */
+    height: 60vh;
+    margin-top: 40px;
+}
+.keyboard-image img:hover{
+    transform : scale(1.1)! important;
+}
+.keyboard-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    margin-top: 40px;
+    max-width: 30%;
+    height: 60vh;
+}
+.keyboard-text h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 270px;
+}
+.keyboard-text a{
+    margin-top: 35px;
+    color: #f8f8f8;
+    /* text-decoration: none; */
+    /* border-bottom: 1px solid white; */
+}
+
+/* Never Settle css */
+
+.Never-settle{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: 102vh;
+    background-color: #000;
+    color: white;
+}
+.Never-header{
+    margin-top: 50px;
+    padding-left: 100px;
+}
+.Never-header h3{
+    font-size: 20px;
+    width: 90%;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+.Never-header h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-top: 25px;
+}
+.Never-header h1 a{
+    text-decoration: none;
+    color: red;
+}
+.Never-path{
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    max-width: 100%;
+    height: 90vh;
+
+}
+.Never-text{
+    display: flex;
+    flex-direction: column;
+    margin-right: 75px;
+    margin-top: 40px;
+    max-width: 30%;
+    height: 60vh;
+}
+.Never-text h1{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* margin-bottom: 285px; */
+}
+.Never-text p{
+    margin-top: 285px;
+    font-weight: 400;
+}
+.Never-text a{
+    margin-top: 35px;
+    color: #f8f8f8;
+    font-weight: 500;
+    /* text-decoration: none; */
+    /* border-bottom: 1px solid white; */
+}
+.Never-image{
+    display:flex;
+    max-width: 50%;
+    /* position: relative; */
+    height: 60vh;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+.Never-image img:hover{
+    transform : scale(1.1)! important;
+}
+/* <!-- OxygenOS 13 and Capture Every Horizon CSS  --> */
+
+.Oxygen-container{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    background-color: #000;
+    max-width: 100%;
+    height: 60vh;
+}
+.OxygenOS-13{
+    width: 50%;
+    height: 50%;
+    color: #f8f8f8;
+    display: flex;
+    margin-left: 90px;
+  
+}
+.Oxygen-text{
+    width: 50%;
+    height: 50.5vh;
+    background-color: #222;
+}
+.Oxygen-text h3{
+    color: gray;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+.Oxygen-text h1{
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.Oxygen-text p{
+    padding-top: 180px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+.Oxygen-text a{
+    padding-left:15px;
+    color: #f8f8f8;
+    font-size: 17px;
+}
+.Oxygen-img{
+    width: 35%;
+    /* height: 30; */
+}
+.Oxygen-img img:hover{
+    transform : scale(1.1)! important;
+}
+.Capture-path{
+    display: flex;
+    width: 50%;
+    height: 60vh;
+    margin-right:20px;
+    
+}
+.Capture-text{
+    width: 50%;
+    height: 50.5vh;
+    color: #f8f8f8;
+    background-color: #222;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+.Capture-text h3{
+    color: gray;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+.Capture-text h1{
+    padding-left: 15px;
+    padding-top: 5px;
+    font-family: sans-serif;
+}
+.Capture-text p{
+    padding-top: 90px;
+    font-weight: 400;
+    padding-left: 15px;
+}
+.Capture-text a{
+    color: #f8f8f8;
+    padding-left: 15px;
+    padding-top: 20px;
+    font-size: 17px;
+}
+.Capture-img{
+    width:25%;
+}
+.Capture-img img:hover{
+    transform : scale(1.1)! important;
+}
+
+/* <!-- Red Cable Club CSS--> */
+.Red-club{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: 102vh;
+    background-color: #000;
+    color: white;
+}
+.Red-club-header{
+    margin-top: 50px;
+    padding-left: 100px;
+}
+.Red-club-header h3{
+    font-size: 20px;
+    width: 90%;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+.Red-club-header h1{
+    font-size: 45px;
+    font-family: sans-serif;
+    margin-top: 25px;
+}
+.Red-club-header h1 a{
+    text-decoration: none;
+    color: red;
+}
+.Red-club-path{
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    max-width: 100%;
+    height: 90vh;
+
+}
+.Red-club-image{
+    display:flex;
+    max-width: 50%;
+    /* position: relative; */
+    height: 60vh;
+    margin-top: 40px;
+}
+.Red-club-image:hover{
+    transform : scale(1.1)! important;
+}
+.Red-club-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    margin-top: 40px;
+    max-width: 30%;
+    height: 60vh;
+}
+.Red-club-text h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 270px;
+}
+.Red-club-text a{
+    margin-top: 35px;
+    color: #f8f8f8;
+}
+
+
+ /* The Power of Community page in CSS */
+ .Power-Community{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: 82vh;
+    background-color: white;
+    color: white;
+}
+.Power-header{
+    margin-top: 50px;
+    padding-left: 90px;
+}
+.Power-header h3{
+    font-size: 20px;
+    color:rgba(0,0,0,.75);
+    width: 90%;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+.Power-header h3 a{
+    color:rgba(0,0,0,.75);;
+}
+.Power-header h3 a i{
+    padding-left: 5px;
+    font-size: 14px;
+    color: red;
+    font-weight:50;
+}
+.Power-header h3{
+    display: flex;
+    justify-content: space-between;
+}
+.Power-path{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    height: 90vh;
+}
+.Power-text{
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    margin-top: 40px;
+    max-width: 30%;
+    height: 60vh;
+    color: #000;
+}
+.Power-text h1{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.Power-text p{
+    margin-top: 285px;
+    font-weight: 400;
+}
+.Power-text a{
+    margin-top: 15px;
+    color: #0c0b0b;
+    font-weight: 500;
+}
+.Power-image{
+    display:flex;
+    height: 60vh;
+    margin-top: 40px;
+}
+.Power-image img:hover{
+    transform : scale(1.1)! important; 
+}
+
+/* <!-- Three box of oneplus site in CSS --> */
+.Image-section{
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+    height: 60vh;
+}
+.Boxes{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height:60vh;
+}
+.box-first{
+    width: 428px;
+}
+.box-first img:hover{
+    transform : scale(1.1)! important;
+}
+.box-first h1{
+    margin-top: 10px;
+    font-size: 32px;
+}
+.box-first p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.box-first a{
+    color:#0c0b0b;
+}
+
+.box-second{
+    width: 428px;
+    margin-left: 10px;
+}
+.box-second img:hover{
+    transform : scale(1.1)! important;
+}
+.box-second h1{
+    margin-top: 10px;
+    font-size: 32px;
+}
+.box-second p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.box-second a{
+   color: #0c0b0b;
+}
+.box-third{
+    width: 428px;
+    margin-left: 10px;
+}
+.box-third img:hover{
+    transform : scale(1.1)! important;
+}
+.box-third h1{
+    margin-top: 10px;
+    font-size: 32px;
+}
+.box-third p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.box-third a{
+   color: #0c0b0b;
+}
+
+/* <!-- Support page --> */
+
+.Support{
+        display: flex;
+        /* flex-direction: column; */
+        max-width: 100%;
+        height: 55vh;
+        background-color: white;
+        color: white;
+        margin-top: 25px;
+}
+.Support-header{
+    margin-top: 50px;
+    padding-left: 90px;
+}
+.Support-header h3{
+    font-size: 20px;
+    color:rgba(0,0,0,.75);
+    width: 96%;
+    border-bottom: 1px solid rgb(222, 216, 216);
+    padding-bottom: 10px;
+}
+.Support-header h3 a{
+    color:rgba(0,0,0,.75);;
+}
+.Support-header h3 a i{
+    padding-left: 5px;
+    font-size: 14px;
+    color: red;
+    font-weight:50;
+}
+.Support-header h3{
+    display: flex;
+    justify-content: space-between;
+}
+.helpdesk{
+    width: 100%;
+    height: 50%;
+    color: #f8f8f8;
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 90px;
+  
+}
+.helpdesk-text{
+    width:50%;
+    color: #0c0b0b;
+    height: 50.5vh;
+    background-color: #f8f8f8;
+}
+.helpdesk-text h3{
+    color:rgba(0,0,0,.4);
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+.helpdesk-text h1{
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.helpdesk-text p{
+    padding-top: 170px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+.helpdesk-text a{
+    /* padding-left:15px; */
+    margin-left: 11px;
+    color: black;
+    font-size: 17px;
+    /* border-bottom: 1px solid black;
+    text-decoration: none; */
+}
+.helpdesk-img{
+    width:25%;
+    /* opacity: 1; */
+    /* height: 30; */
+}
+.helpdesk-img img:hover{
+    transform : scale(1.1);
+}
+
+.Service-center{
+    display: flex;
+    width:100%;
+    height: 60vh;
+    margin-right:20px;
+    
+}
+.Service-text{
+    width: 50%;
+    height: 50.5vh;
+    color: #111010;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f8f8;
+}
+.Service-text h3{
+    color: rgba(0,0,0,.4);
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+.Service-text h1{
+    padding-left: 15px;
+    padding-top: 5px;
+    font-family: sans-serif;
+}
+.Service-text p{
+    padding-top: 180px;
+    font-weight: 400;
+    padding-left: 15px;
+}
+.Service-text a{
+    color:black;
+    padding-left: 15px;
+    padding-top: 20px;
+    font-size: 17px;
+}
+.Service-img{
+    width:25%;
+}
+.Service-img img:hover{
+   transform: scale(1.1)! important;
+}
+.Support-footer{
+    width: 82pc;
+    margin-left: 83px;;
+}
+.footer-path {
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+    height: 50px;
+    border-left: none;
+    border-right: none;
+
+    /* padding-bottom: 20px; */
+    /* padding-left: 20px; */
+}
+.footer-path a{
+    text-decoration: none;
+    color: #222;
+    font-size: 20px;
+}
+.footer-path a i{
+    margin-left: 10px;
+}
+.product{
+    height: 40px;
+    align-items: center;
+    padding-top: 11px;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 205px;
+
+}
+.shopping{
+    padding-top: 11px;
+    align-items: center;
+    padding-right: 180px;
+}
+.Trouble{
+    padding-right: 170px;
+    padding-top: 11px;
+}
+.plan{
+    padding-top: 11px;
+}
+
+/* Stay-connected CSS */
+.Stay-connected{
+    display: flex;
+    padding-top:30px;
+    width: 100%;
+    height: 55vh;
+    background-color:#000;
+}
+.Stay-header{
+    display: flex;
+    background-color:#000;
+    padding-top: 50px;
+    padding-left: 90px;
+}
+.Stay-header h3{
+    font-size: 20px;
+    color:white;
+    width: 90%;
+    border-bottom: 1px solid rgb(222, 216, 216);
+    padding-bottom: 5px;
+}
+
+.GooglePlay{
+    width: 42%;
+    height:20pc;
+    margin-right: 20px;
+    margin-left: 90px;
+    background: url(GooglePlay\ img.webp);
+    background-size: cover;
+    background-position:relative;
+}
+.Google-text{
+    position: relative;
+    width: 300px;
+    height: 100%;
+    color: #f8f8f8;
+}
+.Google-text h1{
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.Google-text p{
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.Google-text button{
+    margin-top: 120px;
+    margin-left: 15px;
+    background: transparent;
+    width: 250px;
+    height: 40px;
+    font-size: 15px;
+    color: #f8f8f8;
+    border: 1px solid rgb(149, 149, 149);
+}
+.Google-text button i{
+    color: #f8f8f8;
+}
+.Subscribe{
+    background: url(Subscribe\ img.webp);
+    background-size: cover;
+    background-position:relative;
+    width:42%;
+    height:20pc;
+    /* margin-top: 11%; */
+    margin-right: 10px;
+}
+
+.Subscribe-text h1{
+    padding-top: 15px;
+    padding-left: 15px;
+    color: #f8f8f8;
+}
+.Subscribe-text h5{
+    padding-top:10px;
+    color: #f8f8f8;
+    padding-left: 15px;
+}
+.Subscribe-text p{
+    padding-top: 75px;
+    color:hsla(0,0%,100%,.55);
+    /* padding-top: 15px; */
+    padding-left: 15px;
+}
+.Subscribe-text button{
+    margin-top: 17px;
+    margin-left: 15px;
+    background: transparent;
+    width: 250px;
+    height: 40px;
+    font-size: 15px;
+    color: #f8f8f8;
+    border: 1px solid rgb(149, 149, 149);
+}
+
+.main-footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 55vh;
+    padding-top: 30px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.main-footer h2{
+    color: #000;
+}
+.main-footer ul li{
+    list-style: none;
+    color: #828282;
+    font-size: 17px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.main-footer ul li:hover{
+color: #000;
+}
+
+.last-page{
+    display: flex;
+    
+    width: 100%;
+    height: 15vh;
+    margin-top: 50px;
+}
+.last-page ul{
+    display: flex;
+    width: 100%; 
+    list-style: none;
+}
+.bank{
+    margin-left: 70px;
+}
+.contact-us{
+    padding-left: 190px;
+}
+.contact-us li{
+  margin-left: 30px;
+}
+.contact-us a{
+ text-decoration: none;
+ color: rgb(0, 153, 204);
+}
+.last-page ul li{
+    padding-left: 10px;
+    font-size: 20px;
+    color: #828282;   
+}
